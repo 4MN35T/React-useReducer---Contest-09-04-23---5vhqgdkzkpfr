@@ -13,7 +13,7 @@ const initialState={
   count:10,
   subnum:1,
   addNum:1
-}
+};
 function reducer(state, action) {
   switch (action.type) {
     case ACTIONS.INCREMENT:
